@@ -1,15 +1,26 @@
-# Alarm Button Game App 🔔🎮
+# 🔔 Alarm Button Puzzle App
 
-This is an Android alarm clock app with a fun twist — you must press the correct sequence of buttons to stop the alarm!
+An Android alarm clock app where you must tap the correct sequence of symbols to dismiss the alarm — no more lazy mornings! 💤💥
 
-## Features
-- ⏰ Set exact alarm times
-- 🧠 3 Levels of button sequences
-- 🔊 Plays alarm sound until the correct sequence is entered
-- 💪 Helps beat morning laziness
+## 💡 Features
+- Set exact alarm time using Android AlarmManager
+- Fun pattern-based mini-game to dismiss alarms
+- Alarm rings even when the phone is idle (with permission setup)
+- Designed in Kotlin + Android Studio
+- Alarm sound using MediaPlayer
 
-## Tech Used
+## 🚀 How to Run
+- Open in Android Studio
+- Run on a real device (make sure permissions are granted)
+- Set the alarm, wait, and try solving the puzzle when it rings 🎮
+
+## 🛠 Tech Stack
 - Kotlin
-- Android Studio
-- AlarmManager
+- Android SDK
 - MediaPlayer
+- AlarmManager
+- Android Permissions (Battery optimization & exact alarms)
+
+---
+
+> Built with ❤️ by Rohit and ChatGPT
