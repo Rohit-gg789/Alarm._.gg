@@ -5,7 +5,7 @@ An Android alarm clock app where you must tap the correct sequence of symbols to
 ## 💡 Features
 - Set exact alarm time using Android AlarmManager
 - Fun pattern-based mini-game to dismiss alarms
-- Alarm rings even when the phone is idle (with permission setup)
+- Alarm rings even when the phone is idle (with permission setup) ##still working on this
 - Designed in Kotlin + Android Studio
 - Alarm sound using MediaPlayer
 
