@@ -9,6 +9,14 @@ An Android alarm clock app where you must tap the correct sequence of symbols to
 - Designed in Kotlin + Android Studio
 - Alarm sound using MediaPlayer
 
+## 🚧 Known Issues
+
+> These are current limitations we're aware of and actively working on.
+
+### ❗ Alarm does not trigger when app is in background or screen is off
+- **Cause:** Android restricts background execution & UI launches in idle state (esp. Android 12+)
+- **Plan:** Will implement a **foreground service + wake lock** so the app wakes reliably and pops the screen
+
 ## 🚀 How to Run
 - Open in Android Studio
 - Run on a real device (make sure permissions are granted)
@@ -24,3 +32,4 @@ An Android alarm clock app where you must tap the correct sequence of symbols to
 ---
 
 > Built with ❤️ by Rohit and ChatGPT
+
